@@ -1,1 +1,71 @@
-/* Denna fil skall innehålla din CSS kod */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: times;
+}
+.content {
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-areas: 
+    'he'
+    'fi'
+    'se'
+    'th'
+    'fo';
+}
+header, #first, #second, #third, footer {
+    padding: 5vh 10vh;
+}
+#first p, #second p, #third p, footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    line-height: 25px;
+}
+header {
+    grid-area: he;
+    background-color: #c0392b;
+    display: flex;
+    justify-content: space-between;
+    font-size: 110%;
+}
+header ul {
+    list-style: none;
+    display: flex;
+}
+header li {
+    margin-left: 40px;
+}
+header a {
+    color: #fff;
+}
+#first {
+    grid-area: fi;
+    max-width: 70%;
+}
+#first button {
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    padding: 1vh 2vh;
+    font-size: 110%;
+    cursor: pointer;
+    margin-top: 2vh;
+}
+#first button:hover {
+    background-color: #fff;
+    border: 2px solid #c0392b;
+    color: #000;
+}
+#second {
+    grid-area: se;
+    max-width: 70%;
+}
+#third {
+    grid-area: th;
+    max-width: 70%;
+}
+footer {
+    grid-area: fo;
+    background-color: #c9c9c9;
+}
