@@ -51,7 +51,7 @@ header a {
     font-size: 110%;
     cursor: pointer;
     margin-top: 2vh;
-    border: 2px solid transparent;
+    border: 3px solid transparent;
 }
 #first button:hover {
     background-color: #fff;
@@ -60,7 +60,12 @@ header a {
 }
 #second {
     grid-area: se;
-    max-width: 70%;
+    max-width: 95%;
+    display: flex;
+}
+#second img {
+    width: 400px;
+    margin: 5vh;
 }
 #third {
     grid-area: th;
@@ -68,5 +73,8 @@ header a {
 }
 footer {
     grid-area: fo;
-    background-color: #c9c9c9;
+    background-color: #161616;
+}
+footer p {
+    color: #fff;
 }
