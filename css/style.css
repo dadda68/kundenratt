@@ -78,3 +78,10 @@ footer {
 footer p {
     color: #fff;
 }
+#search {
+    display: flex;
+    background-color: #d4d4d4;
+    max-width: 50vh;
+    padding: 10px 20px;
+    align-items: flex-end;
+}
