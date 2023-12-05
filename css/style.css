@@ -51,8 +51,7 @@ header a {
     font-size: 110%;
     cursor: pointer;
     margin-top: 2vh;
-    border: 3px solid transparent;
-    transition: 0.2s;
+    border: 2px solid transparent;
 }
 #first button:hover {
     background-color: #fff;
