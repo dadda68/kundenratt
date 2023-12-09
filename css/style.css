@@ -80,8 +80,8 @@ footer p {
 }
 #search {
     display: flex;
-    background-color: #d4d4d4;
-    max-width: 50vh;
+    background-color: #dfdfdf;
+    max-width: 40vh;
     padding: 10px 20px;
-    align-items: flex-end;
+    justify-content: space-between;
 }
