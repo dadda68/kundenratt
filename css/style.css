@@ -85,3 +85,11 @@ footer p {
     padding: 10px 20px;
     justify-content: space-between;
 }
+#img-grid {
+    display: flex;
+    justify-content: space-between;
+}
+.seller_card {
+    background-color: red;
+    width: 20vh;
+}
