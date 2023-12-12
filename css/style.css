@@ -69,7 +69,7 @@ header a {
 }
 #third {
     grid-area: th;
-    max-width: 70%;
+    max-width: 100%;
 }
 footer {
     grid-area: fo;
@@ -117,4 +117,38 @@ footer p {
     background-color: transparent;
     border: 2px solid #c0392b;
     color: #000;
+}
+#top-selling-paintings {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    max-width: 100%;
+    margin: 5vh 0;
+}
+#top-selling-paintings section {
+    width: 28vh;
+    height: 28vh;
+    background-size: cover;
+}
+#top-selling-paintings section:hover {
+    cursor: pointer;
+}
+#s1 {
+    background-image: url(../img/art-work-1.jpg); 
+}
+#s2 {
+    background-image: url(../img/artwork-2.jpg);
+}
+#s3 {
+    background-image: url(../img/artwork-3.jpg);
+}
+#s4 {
+    background-image: url(../img/artwork-4.jpg);
+}
+#s5 {
+    background-image: url(../img/artwork-5.jpg);
+}
+#s6 {
+    background-image: url(../img/artwork-6.jpg);
 }
