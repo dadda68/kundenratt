@@ -152,3 +152,27 @@ footer p {
 #s6 {
     background-image: url(../img/artwork-6.jpg);
 }
+#create-article, #details {
+    border: 1px solid #a3a3a3;
+    padding: 3vh;
+    margin-bottom: 3vh;
+}
+#create-article h2 {
+    margin-bottom: 1vh;
+}
+input, textarea{
+    padding: 0.5vh;
+    border: 1px solid black;
+    border-radius: none;
+}
+form * {
+    margin: 0.3vh 0;
+}
+form {
+    margin-bottom: 1vh;
+}
+#add-picture #camera {
+    background-color: white;
+    border: 3px solid #c0392b;
+    color: #000;
+}
